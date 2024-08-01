@@ -26,3 +26,18 @@ If you want to learn how to create it please follow below tutorial👇:
 ## ⭐DO NOT FORGET TO STAR THIS REPO⭐
 
 ---
+
+## environments
+
+Do not forget to input your own environment on .env.local file
+
+```bash
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+
+# Clerk auth
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+CLERK_WEBHOOK_SECRET=
+```
