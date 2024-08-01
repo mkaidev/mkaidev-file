@@ -141,7 +141,6 @@ export function FileBrowser({
             })}
           </div>
         </TabsContent>
-
         <TabsContent value="table">
           <DataTable columns={columns} data={modifiedFiles} />
         </TabsContent>
